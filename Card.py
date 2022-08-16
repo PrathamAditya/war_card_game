@@ -1,4 +1,4 @@
-from values_suits_ranks import values
+from values_suits_ranks import *
 
 
 class Card():

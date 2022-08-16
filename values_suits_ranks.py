@@ -13,6 +13,6 @@ values = {'ace': 14,
           'king': 13
           }
 
-suits = ('hearts', 'diamonds', 'spades', 'clubs')
+suits = ('ace', 'hearts', 'diamonds', 'spades', 'clubs')
 ranks = ('two', 'three', 'four', 'five', 'six', 'seven',
-         'eight', 'nine', 'ten', 'jack', 'queen', 'king', 'ace')
+         'eight', 'nine', 'ten', 'jack', 'queen', 'king')

@@ -1,7 +1,8 @@
-from Card import Card
+from deck import Deck
 
-my_card = Card("heart", "queen")
-
-print(my_card.suit)
-print(my_card.value)
-print(my_card.rank)
+my_deck = Deck()
+for i in my_deck.all_cards:
+    print(i)
+my_deck.shuffle_deck()
+for i in my_deck.all_cards:
+    print(i)
