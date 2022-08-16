@@ -16,5 +16,7 @@ class Deck():
                 self.all_cards.append(temp_card)
 
     def shuffle_deck(self):
-        print("Print the shit!")
         shuffle(self.all_cards)
+
+    def deal_one(self):
+        return self.all_cards.pop()
